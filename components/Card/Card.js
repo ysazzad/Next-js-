@@ -9,7 +9,7 @@ import arrow3 from '/public/images/arrow3.png'
 
 const Card = () => {
     return (
-        <div className='bg-blue mx-5 lg:mx-28 p-5 lg:p-20 flex flex-col lg:flex-row lg:my-28 rounded-3xl'>
+        <div className='bg-blue mx-5 lg:mx-28 p-5 lg:p-20 flex flex-col lg:flex-row lg:my-16 rounded-3xl'>
             <div className='flex my-4'>
                 <div className='w-20 h-20 lg:w-24 lg:h-24 bg-white-blur flex justify-center items-center rounded-2xl'>
                     <Image src={pose} alt="workoutSvg1" className="" />
